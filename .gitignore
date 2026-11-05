@@ -1,0 +1,18 @@
+# Build output
+dist/
+bin/
+obj/
+*.user
+*.suo
+
+# IDE
+.vs/
+.idea/
+*.csproj.user
+
+# BepInEx runtime files (if the repo is cloned next to the game)
+BepInEx/
+doorstop_config.ini
+winhttp.dll
+*.log
+LogOutput.log*
