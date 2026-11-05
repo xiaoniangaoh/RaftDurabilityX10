@@ -1,5 +1,8 @@
 # Raft Durability x10
 
+[![GitHub release](https://img.shields.io/github/v/release/xiaoniangaoh/RaftDurabilityX10)](https://github.com/xiaoniangaoh/RaftDurabilityX10/releases)
+[![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
+
 Raft 的 BepInEx 模组：把工具、武器、装备的**耐久消耗降为原来的 1/10**，也就是工具寿命变成 **10 倍**。
 
 不需要新建世界，也不需要迁移存档 —— 模组只改变"每次使用时扣多少耐久"，物品定义、存档数据和网络同步都不动，所以
@@ -37,7 +40,7 @@ Raft 的 BepInEx 模组：把工具、武器、装备的**耐久消耗降为原�
 
 前置条件：游戏已安装 **BepInEx 5.4.x（x64，Mono 版）**，并且能正常加载其他插件。
 
-1. 下载 `RaftDurabilityX10.dll`（见 [Releases](../../releases)）或自行构建；
+1. 从 [Releases](https://github.com/xiaoniangaoh/RaftDurabilityX10/releases) 下载安装包，或自行构建；
 2. 放到：
 
    ```
@@ -47,7 +50,7 @@ Raft 的 BepInEx 模组：把工具、武器、装备的**耐久消耗降为原�
    （直接放在 `plugins\` 根目录下也可以）
 3. 启动游戏。首次启动会生成配置文件：
    `BepInEx\config\raft.durability.x10.cfg`
-4. 如果你用 r2modman / Thunderstore Mod Manager，也可以用仓库里的打包 zip（`dist\RaftDurabilityX10-1.0.0.zip`）安装。
+4. 用 r2modman / Thunderstore Mod Manager 的话，可以直接导入 Release 里的 zip（解压到游戏根目录即可，内含 `BepInEx\plugins\RaftDurabilityX10\RaftDurabilityX10.dll`）。
 
 ## 配置
 
