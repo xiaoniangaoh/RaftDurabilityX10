@@ -2,6 +2,8 @@
 
 [![GitHub release](https://img.shields.io/github/v/release/xiaoniangaoh/RaftDurabilityX10)](https://github.com/xiaoniangaoh/RaftDurabilityX10/releases)
 [![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
+![Crates.io Total Downloads](https://img.shields.io/crates/d/https%3A%2F%2Fgithub.com%2Fxiaoniangaoh%2FRaftDurabilityX10)
+
 
 Raft 的 BepInEx 模组：把工具、武器、装备的**耐久消耗降为原来的 1/10**，也就是工具寿命变成 **10 倍**。
 
